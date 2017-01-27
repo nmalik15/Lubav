@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nenad.lubav.MainActivity">
+
+    <ImageView
+        android:src="@drawable/rose"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/message1"
+        style="@style/MsgFont"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="@string/message1"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/receiver"
+        style="@style/NameFont"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:text="@string/receiver"
+        android:layout_below="@id/message1" />
+
+    <TextView
+        android:id="@+id/sender"
+        style="@style/NameFont"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/sender" />
+
+    <TextView
+        android:id="@+id/message2"
+        style="@style/MsgFont"
+        android:layout_above="@id/sender"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/msg_color"
+        android:text="@string/message2" />
+
+</RelativeLayout>
+
+

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lubav</string>
+    <string name="message1">My darling,</string>
+    <string name="receiver">Tina</string>
+    <string name="message2">I love you!</string>
+    <string name="sender">Nenad</string>
+</resources>
